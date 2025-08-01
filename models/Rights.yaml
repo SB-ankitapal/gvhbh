@@ -1,0 +1,25 @@
+title: Rights
+x-stoplight:
+  id: gnefnkq38yeui
+type: object
+description: Rights block for CHILE 2.0
+properties:
+  isRestartable:
+    type: boolean
+    x-stoplight:
+      id: 24kegmqhxmz65
+  isReplayable:
+    type: boolean
+    x-stoplight:
+      id: jd4k7c1ghqsbo
+  replayRetentionMins:
+    type: integer
+    x-stoplight:
+      id: yns2us69lqb0y
+    example: 0
+    description: 0 or absent if isReplayable=false
+  advInsertion:
+    type: boolean
+    x-stoplight:
+      id: 0vsgajgtuks89
+x-internal: false

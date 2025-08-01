@@ -1,0 +1,8 @@
+title: SleType
+x-stoplight:
+  id: 0n4xmeuvx6d4y
+type: object
+enum:
+  - Fixture
+  - Placeholder
+x-internal: false
